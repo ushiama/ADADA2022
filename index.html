@@ -304,7 +304,8 @@
                 <h4>Submission Deadline: September 16th, 2022</h4>
                 <div class="d-flex justify-content-around ">
                     <a class="btn btn-danger btn-lg col-10" role="button "
-                        href="https://easychair.org/conferences/?conf=adadacumulus2022" target="new ">Submit my Paper</a>
+                        href="https://easychair.org/conferences/?conf=adadacumulus2022" target="new ">Submit my
+                        Paper</a>
                 </div>
 
 
@@ -333,7 +334,8 @@
                 <h4>Submission Deadline: September 16th, 2022</h4>
                 <div class="d-flex justify-content-around ">
                     <a class="btn btn-danger btn-lg col-10" role="button "
-                        href="https://easychair.org/conferences/?conf=adadacumulus2022" target="new ">Submit my Paper</a>
+                        href="https://easychair.org/conferences/?conf=adadacumulus2022" target="new ">Submit my
+                        Paper</a>
                 </div>
 
                 <h3 class="title ">Work-in-Progress</h3>
@@ -449,6 +451,7 @@
             </div>
             <div class="section text-center " id="reg">
                 <h2 class="title ">Registration</h2>
+
                 <h3 class="title ">Registration Fee</h3>
                 <table class="table table-hover text-left ">
                     <thead class="thead-dark ">
@@ -476,10 +479,57 @@
                         </tr>
                     </tbody>
                 </table>
-                <div class="d-flex justify-content-around ">
-                    <a class="btn btn-danger btn-lg col-5 disabled" role="button "
-                        href="registration/index.html">Registration Site</a>
+
+                <div class="card">
+                    <div class=" card-body">
+                        <h5 class="card-title">Notice</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Please read carefully before the registration</h6>
+                        <p class="card-text">We have received several reports of credit card payment failures. We
+                            apologize for any inconvenience caused. Since the ADADA Office has no control over this
+                            matter, please consider sending money via Internet service (e.g., <a
+                                href="https://wise.com/" target="_blank">https://wise.com/</a>, By using Internet
+                            services, the cost of remittance processing can be considerably reduced.) if the
+                            credit card payment fails by any
+                            means. Please contact the office ( office@adada.info ) for information on the bank to which
+                            the
+                            remittance should be
+                            sent. For users in Japan, ADADA International's registered bank is located in Japan, so you
+                            can use the regular bank transfer procedure.</p>
+                        <p>
+                            Participants are responsible for the costs associated with international remittances.
+                        </p>
+                        <input type="checkbox" class="btn-check" id="btn-check" autocomplete="off"
+                            onclick="toggleRegistrationButton(this);">
+                        <script>
+                            function toggleRegistrationButton(dom) {
+                                if (dom.checked) {
+                                    document.querySelector('#button_registration').classList.remove('disabled');
+                                }
+                                else {
+                                    document.querySelector('#button_registration').classList.add('disabled');
+                                }
+                            }
+                        </script>
+                        <label class="btn btn-secondary" for="btn-check">I've read and understand the above
+                            notice.</label>
+
+                        <div class="d-flex justify-content-around ">
+                            <a class="btn btn-danger btn-lg col-5 disabled" role="button"
+                                href="./registration/index.php" id="button_registration" target="_blank">Registration
+                                Site</a>
+                        </div>
+                    </div>
                 </div>
+
+
+                <p class="p-4" style="font-size:1em;text-align:left;font-weight:500;">
+                    [Notice]<br>
+
+                </p>
+
+
+
+
             </div>
             <div class="section text-center" id="schedule">
                 <h2 class="title">Schedule</h2>
@@ -537,7 +587,7 @@
                         <li>Joe Takayama, Musashino Art University</li>
                         <li>Satoru Tokuhisa, Kyushu University</li>
                         <li>Reiji Tsuruno, Kyushu University</li>
-                        <li>Taketoshi	Ushiama	Kyushu University</li>
+                        <li>Taketoshi Ushiama Kyushu University</li>
                     </ul>
                 </div>
                 <h3 class="title ">EDITORIAL COMMITTEE for Journal Track</h3>
